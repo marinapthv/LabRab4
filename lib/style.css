@@ -1,3 +1,32 @@
 h1{
     color:red;
 }
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #7ec850;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.surname {
+    color: #7ec850;
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: transform 0.3s;
+}
+
+.surname:hover {
+    transform: scale(1.1);
+}
